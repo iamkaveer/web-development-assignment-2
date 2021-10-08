@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero">
+		<nav>
+			<img src="logo.png" class="logo">
+			<ul>
+				<li class="li-hover"><a href="">Home</a></li>
+				<li class="li-hover"><a href="">About</a></li>
+				<li class="li-hover"><a href="">Contact</a></li>
+				<li class="li-hover"><a href="">Portfolio</a></li>
+			</ul>
+		</nav>
+		<h1>The Magical <br>PlanetX</h1>
+		<button type="button">Explore The Life</button>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1 class="container-h1">Explore <br>Planet</h1>
+			</div>
+		
+		<div class="col">
+			<div class="card card1">
+				<h5>Earth</h5>
+				<p>also knowen as Blue Planet</p>
+			</div>
+			<div class="card card2">
+				<h5>Mars</h5>
+				<p>also knowen as Blue Planet</p>
+			</div>
+			<div class="card card3">
+				<h5>Jupiter</h5>
+				<p>also knowen as Blue Planet</p>
+			</div>
+			<div class="card card4">
+				<h5>Saturn</h5>
+				<p>also knowen as Blue Planet</p>
+			</div>
+			
+		</div>
+		</div>
+		
+
+	</div>
+
+	<div class="container-two">
+		<div class="row">
+			<div class="col">
+				<h1 class="container-h1">News & <br>Updates</h1>
+			</div>
+		
+			<div class="col">
+			<div class="card-new card-news">
+				<h5>News</h5>
+				<p>
+					<marquee width="60%" direction="up" scrollamount="5" height="100px">
+						All the news will be display here....
+					</marquee>
+				</p>
+			</div>
+			<div class="card-new card-update">
+				<h5>Updates</h5>
+				<p>This portion is for updates...</p>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-four">
+		<h1 class="container-h1" style="text-align: center;">Image gallery</h1>
+		<div class="on-image">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="image/picc1.jpg" alt="Smiley" width="250" height="155">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="image/picc2.jpg" alt="Smiley" width="250" height="155">
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="image/picc4.jpg" alt="Smiley" width="250" height="155">
+		</div>
+	</div>
+
+	<div class="team">
+    <div class="container-three">
+      <img class="team-photo" src="image/team/team1.png" alt="">
+      <img class="team-photo" src="image/team/team2.png" alt="">
+    </div>
+    </div>
+
+
+<footer>
+	<div class="icons">
+  	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	<a href="#" class="fa fa-google"></a>
+	<a href="#" class="fa fa-youtube"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-reddit"></a>
+	<a href="#" class="fa fa-rss"></a>
+    </div>
+</footer>
+
+<script>
+function bigImg(x) {
+  x.style.height = "455px";
+  x.style.width = "755px";
+}
+
+function normalImg(x) {
+  x.style.height = "155px";
+  x.style.width = "250px";
+}
+</script>
+
+
+
+
+</body>
+</html>
